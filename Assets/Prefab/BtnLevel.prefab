@@ -227,6 +227,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textLevel: {fileID: 2504948857257681172}
+  star:
+  - {fileID: 4428623194833194973}
+  - {fileID: 1841480858479832752}
+  - {fileID: 8339877618397901991}
 --- !u!1 &4428623194833194973
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,7 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.31132078, g: 0.2843259, b: 0.013216442, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
