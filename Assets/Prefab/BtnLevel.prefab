@@ -202,13 +202,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2111721579001892062}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 7246732399636745976}
+        m_TargetAssemblyTypeName: LevelBtn, Assembly-CSharp
+        m_MethodName: OnClickBtnLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87b1ef77b680d674c868e7d2ef8f89aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textLevel: {fileID: 6602749081528847422}
+  textLevel: {fileID: 2504948857257681172}
 --- !u!1 &4428623194833194973
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 2504948857257681172}
   m_Layer: 5
   m_Name: LevelText
-  m_TagString: Untagged
+  m_TagString: TextLevel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338,7 +338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 2.3}
   m_SizeDelta: {x: 90.2954, y: 25.9185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3498637198045477997
@@ -369,7 +369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 11
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
