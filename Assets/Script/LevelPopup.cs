@@ -6,7 +6,7 @@ public class LevelPopup : MonoBehaviour
 {
 
     [SerializeField] private GameObject prefabLevel;
-    [SerializeField] private GameObject inventory;
+    [SerializeField] private Transform inventory;
 
     [SerializeField] private int levelUWant;
 
@@ -19,6 +19,7 @@ public class LevelPopup : MonoBehaviour
     void spawnLevelBtn(int idx){
         for(int i=0; i<idx; i++){
             GameObject game = Instantiate(prefabLevel, new Vector3(0,0,0), Quaternion.identity);
+            game.transform.SetParent(inventory);
         }   
     }
 

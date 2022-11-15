@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 359807927}
   - component: {fileID: 359807926}
   - component: {fileID: 359807925}
+  - component: {fileID: 359807928}
   m_Layer: 5
   m_Name: ScrollView
   m_TagString: Untagged
@@ -214,6 +215,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359807923}
   m_CullTransparentMesh: 1
+--- !u!114 &359807928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359807923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2fd16ae2c4a0840ab22a2c5c0d7195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabLevel: {fileID: 2111721579001892062, guid: 4277a777479fb6a4e8915b15fe8585bc, type: 3}
+  inventory: {fileID: 1965323421}
+  levelUWant: 100
 --- !u!1 &573210302
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,7 +847,6 @@ GameObject:
   - component: {fileID: 1965323425}
   - component: {fileID: 1965323424}
   - component: {fileID: 1965323423}
-  - component: {fileID: 1965323426}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -856,8 +871,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 12.998, y: -2339.2004}
-  m_SizeDelta: {x: 454.11, y: 4678.4}
+  m_AnchoredPosition: {x: 12.998, y: -2654.1216}
+  m_SizeDelta: {x: 454.11, y: 5308.2437}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965323423
 MonoBehaviour:
@@ -921,22 +936,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965323420}
   m_CullTransparentMesh: 1
---- !u!114 &1965323426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965323420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df2fd16ae2c4a0840ab22a2c5c0d7195, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabLevel: {fileID: 2111721579001892062, guid: 4277a777479fb6a4e8915b15fe8585bc, type: 3}
-  inventory: {fileID: 1965323420}
-  levelUWant: 100
-  levelPopup: {fileID: 1965323426}
 --- !u!1 &1979762341
 GameObject:
   m_ObjectHideFlags: 0
